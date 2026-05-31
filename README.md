@@ -15,8 +15,11 @@
 
 ## Included Configurations
 
+- iTerm2
 - Zsh
+  - Powerlevel10k
 - Neovim
+- Yazi
 
 ## Setup
 
@@ -26,11 +29,18 @@ Clone the repository:
 git clone https://github.com/Yenterick/dotfiles.git ~/dotfiles
 ```
 
+Setup iTerm2:
+
+  iTerm2 → Settings → Profiles → Other Actions → Import JSON Profiles...
+
 Create symlinks:
 
 ```bash
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
+ln -s ~/dotfiles/p10k/ ~/.config/p10k
 ln -s ~/dotfiles/nvim ~/.config/nvim
+ln -s ~/dotfiles/yazi ~/.config/yazi
 ```
 
 ---
