@@ -19,6 +19,7 @@
 - Zsh
   - Powerlevel10k
 - Neovim
+- Fastfetch
 - Yazi
 
 ## Setup
@@ -39,8 +40,9 @@ Create symlinks:
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/dotfiles/p10k/ ~/.config/p10k
-ln -s ~/dotfiles/nvim ~/.config/nvim
-ln -s ~/dotfiles/yazi ~/.config/yazi
+ln -s ~/dotfiles/nvim/ ~/.config/nvim
+ln -S ~/dotfiles/fastfetch/ ~/.config/fastfetch
+ln -s ~/dotfiles/yazi/ ~/.config/yazi
 ```
 
 ---
