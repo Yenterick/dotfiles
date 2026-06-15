@@ -15,7 +15,10 @@
 
 ## Included Configurations
 
+- Niri
+- Waybar
 - iTerm2
+- Alacritty
 - Zsh
   - Powerlevel10k
 - Neovim
@@ -37,11 +40,14 @@ Setup iTerm2:
 Create symlinks:
 
 ```bash
+ln -s ~/dotfiles/niri/ ~/.config/niri
+ln -s ~/dotfiles/waybar/ /etc/xdg
+ln -s ~/dotfiles/alacritty/ ~/.config/alacritty
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/dotfiles/p10k/ ~/.config/p10k
 ln -s ~/dotfiles/nvim/ ~/.config/nvim
-ln -S ~/dotfiles/fastfetch/ ~/.config/fastfetch
+ln -s ~/dotfiles/fastfetch/ ~/.config/fastfetch
 ln -s ~/dotfiles/yazi/ ~/.config/yazi
 ```
 
